@@ -3,7 +3,7 @@
 <br>
 <br>
 
-<h1>Qwen3 in Docker on intel NPU as a Visual Studio Code local model - installation on Fedora 44</h1>
+<h1>Qwen3 in Docker on intel NPU as a local model for Visual Studio Code - installation on Fedora 44</h1>
 
 
 <h2>Qwen3 in Docker setup - For Intel Lunar Lake NPU</h2>
