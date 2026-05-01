@@ -81,6 +81,14 @@ And then for librar too:
 export LD_LIBRARY_PATH="$HOME/.local/lib64:$LD_LIBRARY_PATH"
 ```
 
+Reload the intel_vpu module to load new firmware:
+
+```bash
+sudo rmmod intel_vpu
+sudo modprobe intel_vpu
+```
+
+
 Now you should be able to run test:
 
 ```bash
