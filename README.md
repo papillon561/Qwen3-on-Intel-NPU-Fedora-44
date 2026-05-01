@@ -1,6 +1,7 @@
 # Qwen3-on-Intel-NPU-Fedora-44
-Qwen3 in Docker on intel NPU as a Visual Studio Code local model - installation on Fedora 44
 
+<br>
+<br>
 
 <h1>Qwen3 in Docker on intel NPU as a Visual Studio Code local model - installation on Fedora 44</h1>
 
