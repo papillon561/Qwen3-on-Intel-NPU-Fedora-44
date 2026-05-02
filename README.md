@@ -3,10 +3,18 @@
 This setup was tested on Fedora 44 KDE, installed on laptop with Intel® Core™ Ultra 7 Processor 258V (code name Lunar Lake), but should also work on any Lunar Lake processor, due to low memory demands of Qwen3 model. Lunar Lake is very efficient and fast platform (it uses high bandwith unified memory), so it is an excelent platform for running local AI models.
 
 Hardware: Laptop with Intel® Core™ Ultra 7 Processor 258V (code name Lunar Lake)
+<br>
+<br>
 Operating System: Fedora KDE Plasma Desktop 44 kernel version: 6.19.14-300.fc44.x86_64
+<br>
+<br>
 Driver version: Intel - linux-npu-driver v1.32.1
 
 
+
+[Qwen3 in Docker setup](#qwen3-in-docker-setup---for-intel-lunar-lake-npu)
+
+[Connecting VS Code extension "Continue" to local Qwen model](#connecting-visual-studio-code-extension-continue-to-local-qwen-model)
 
 
 
@@ -17,7 +25,7 @@ Driver version: Intel - linux-npu-driver v1.32.1
 <h1>Qwen3 in Docker on intel NPU as a local model for Visual Studio Code - installation on Fedora 44</h1>
 
 
-<h2>Qwen3 in Docker setup - For Intel Lunar Lake NPU</h2>
+## Qwen3 in Docker setup - For Intel Lunar Lake NPU
 
 After installation of Fedora 44 open terminal and do update command:
 
@@ -179,7 +187,7 @@ sudo docker logs -f container_id_here
 <br>
 <br>
 
-<h2>Connecting Visual Studio Code extension "Continue" to local Qwen model</h2>
+## Connecting Visual Studio Code extension "Continue" to local Qwen model
 
 **Install VISUAL STUDIO CODE for Fedora (follow tutorial from their web)**
 
@@ -190,7 +198,7 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 ```
 
 Install Visual Studio Code:
-
+</h2>
 dnf check-update &&
 sudo dnf install code # or code-insiders
 
@@ -202,7 +210,7 @@ After installation Start Visual Studio Code:
 Open Continue extension and in the top right corner of extension you should see a drop down menu with config selection options. There choose settings wheel right to the **Local Config**.
 
 
-If you only plan to use Qwen model, just copy and replace the whole config:
+If you only plan to use only Qwen model, just copy and replace the whole config:
 
 
 ```yaml
@@ -224,4 +232,4 @@ models:
       - autocomplete
 ```
 
-And if you plan to use other model too, copy only code that is bellow **models:** in above snippet.
+And if you plan to use other models too, copy only code that is bellow **models:** in above snippet.
