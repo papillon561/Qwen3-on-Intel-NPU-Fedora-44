@@ -1,4 +1,10 @@
-# Qwen3-on-Intel-NPU-Fedora-44
+# Qwen3 on Intel NPU - Fedora 44
+
+This setup was tested on Fedora 44 KDE, installed on laptop with Intel® Core™ Ultra 7 Processor 258V (code name Lunar Lake), but should also work on any Lunar Lake processor, due to low memory demands of Qwen3 model. Lunar Lake is very efficient and fast platform (it uses high bandwith unified memory), so it is an excelent platform for running local AI models.
+
+
+
+
 
 <br>
 <br>
